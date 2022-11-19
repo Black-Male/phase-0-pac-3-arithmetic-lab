@@ -6,23 +6,23 @@ beforeEach(function() {
 })
 
 describe('basic math functions', function () {
-  it("'add()' is a valid function", function() {
+  it("'add()' is a valid function", function add() {
     expect(add).toExist
   })
 
-  it("'subtract()' is a valid function", function() {
+  it("'subtract()' is a valid function", function subtract() {
     expect(subtract).toExist
   })
 
-  it("'multiply()' is a valid function", function() {
+  it("'multiply()' is a valid function", function multiply() {
     expect(multiply).toExist
   })
 
-  it("'divide()' is a valid function", function() {
+  it("'divide()' is a valid function", function divide() {
     expect(divide).toExist
   })
 
-  it('add(a, b) adds two numbers and returns the result', function() {
+  it('add(a, b) adds two numbers and returns the result', function () {
     expect(add(a, b)).toEqual(a + b)
   })
   
